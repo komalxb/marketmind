@@ -94,6 +94,7 @@ export default function Home() {
   const [showPlan, setShowPlan] = useState(true);
 
   const handleResearch = async () => {
+    console.log("API URL:", process.env.NEXT_PUBLIC_API_URL);
     if (!query.trim()) return;
     
     setLoading(true);
