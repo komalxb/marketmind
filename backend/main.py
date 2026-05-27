@@ -12,7 +12,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
      allow_origins=[
-        "https://marketmind-bh97pug9k-komal-bhargava-s-projects.vercel.app",
+        "https://marketmind-zeta.vercel.app",
         "http://localhost:3000"
     ],
     allow_credentials=True,
